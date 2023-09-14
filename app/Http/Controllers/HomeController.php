@@ -9,10 +9,11 @@ use Illuminate\Support\Facades\DB;
 class HomeController extends Controller
 {
     function index() : View {
-        $url = 'http://127.0.0.1:8000/';
+        $url = 'https://admin.synodev.my.id/';
 
         $portfolio = DB::table('portfolios')
         ->where('status', '=', '1')
+        ->orderBy('project_date', 'desc')
         ->get();
 
         $profile = DB::table('users')
@@ -42,7 +43,7 @@ class HomeController extends Controller
     }
 
     function portfolioDetail($id) : View {
-        $url = 'http://127.0.0.1:8000/';
+        $url = 'https://admin.synodev.my.id/';
 
         $portfolio = DB::table('portfolios')
         ->where('id', '=', $id)

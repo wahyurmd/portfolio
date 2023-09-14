@@ -1,4 +1,4 @@
-<div class="hero hero-single route bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+<div class="hero hero-single route bg-image" style="background-image: url({{ asset('assets/img/overlay-bg.jpg') }})">
     <div class="overlay-mf"></div>
     <div class="hero-content display-table">
         <div class="table-cell">

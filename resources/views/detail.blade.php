@@ -36,7 +36,7 @@
                             <li><strong>Category</strong>: {{ $row->category }}</li>
                             <li><strong>Client</strong>: {{ $row->client }}</li>
                             <li><strong>Project date</strong>: {{ $row->project_date }}</li>
-                            <li><strong>Project URL</strong>: <a href="#">{{ $row->project_url }}</a></li>
+                            <li><strong>Project URL</strong>: <a href="{{ $row->project_url }}">{{ $row->project_url }}</a></li>
                         </ul>
                         @if (!empty(trim($row->desc)))
                         <div class="portfolio-description">
