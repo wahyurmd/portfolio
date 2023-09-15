@@ -29,7 +29,7 @@
                 </div>
 
                 @foreach ($portfolio as $row)
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-5">
                     <div class="portfolio-info">
                         <h3>Project information</h3>
                         <ul>

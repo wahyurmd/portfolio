@@ -53,6 +53,7 @@ class HomeController extends Controller
         $portfolioImage = DB::table('portfolio_images')
         ->where('portfolio_id', '=', $id)
         ->where('status', '=', '1')
+        ->orderBy('placement', 'asc')
         ->get();
 
         return view('detail', compact(
