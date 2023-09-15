@@ -217,7 +217,7 @@
             </div>
             <div class="row">
                 @foreach ($portfolio as $row)
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="work-box">
                         <a href="{{ $url . 'storage/portfolio/thumbnails/' . $row->thumbnail }}" data-gallery="portfolioGallery" class="portfolio-lightbox">
                             <div class="work-img">
@@ -226,13 +226,13 @@
                         </a>
                         <div class="work-content">
                             <div class="row">
-                                <div class="col-sm-8">
+                                <div class="col-sm-10">
                                     <h2 class="w-title">{{ $row->title }}</h2>
                                     <div class="w-more">
                                         <span class="w-ctegory">{{ $row->category }}</span> / <span class="w-date">{{ $row->project_date }}</span>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-2">
                                     <div class="w-like">
                                         <a href="{{ route('detail.portfolio', $row->id) }}"> <span class="bi bi-plus-circle"></span></a>
                                     </div>

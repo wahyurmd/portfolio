@@ -13,7 +13,7 @@
 <main id="main">
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
-        <div class="container">
+        <div class="container mb-5">
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
@@ -29,7 +29,7 @@
                 </div>
 
                 @foreach ($portfolio as $row)
-                <div class="col-lg-6 mb-5">
+                <div class="col-lg-6">
                     <div class="portfolio-info">
                         <h3>Project information</h3>
                         <ul>

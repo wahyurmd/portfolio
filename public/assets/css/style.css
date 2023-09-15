@@ -943,7 +943,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #eeeeee;
 }
 
 .work-box:hover img {
@@ -973,7 +973,7 @@ a:hover {
 }
 
 .work-content .w-like {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: #0078ff;
   float: right;
 }
@@ -987,7 +987,7 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 /*--------------------------------------------------------------
