@@ -43,25 +43,31 @@
                                         <span>HTML & CSS</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <span>BOOTSTRAP</span>
-                                    </div>
-                                    <div class="col-md-6">
                                         <span>PHP</span>
                                     </div>
                                     <div class="col-md-6">
                                         <span>LARAVEL</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <span>CODEIGNITER</span>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <span>WORDPRESS</span>
+                                        <span>BOOTSTRAP</span>
                                     </div>
                                     <div class="col-md-6">
                                         <span>JAVASCRIPT</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <span>ANALYSIS</span>
+                                        <span>MySQL</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>DATA ANALYSIS</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>WORDPRESS</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>GRAPHIC DESIGN</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>MICROSOFT OFFICE</span>
                                     </div>
                                 </div>
                             </div>
